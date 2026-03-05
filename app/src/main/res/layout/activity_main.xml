@@ -10,38 +10,32 @@
 
 
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:layout_marginTop="50sp"
         android:layout_gravity="center_horizontal"
-        android:src="#2d2d2d" />
-
-    <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="@string/nomeInicio"
-       android:textAlignment="center"
-       android:textSize="50sp"
-       android:layout_marginTop="50sp"
-       />
+        android:src="@drawable/img_dose_certa"
+        />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="30sp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
-        android:text="@string/usuario"
+        android:hint="@string/usuario"
+        android:autofillHints="username"
         android:inputType="textPersonName"
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="30sp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
-        android:text="@string/senha"
+        android:hint="@string/senha"
+        android:autofillHints="password"
         android:inputType="textPassword"
         />
 
@@ -66,6 +60,32 @@
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
         android:id="@+id/btSair"
+        />
+
+    <TextView
+        android:id="@+id/linkEsqueciSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:text="@string/esqueciSenha"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="150sp"
+        />
+
+    <TextView
+        android:id="@+id/linkCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:text="@string/cadastrar"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="167sp"
         />
 
 

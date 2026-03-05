@@ -6,4 +6,6 @@
     <string name="titulo1">Meus Remédios</string>
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
+    <string name="esqueciSenha">Recuperar Senha</string>
+    <string name="cadastrar">Cadastre-se</string>
 </resources>
