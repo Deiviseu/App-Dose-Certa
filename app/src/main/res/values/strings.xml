@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dose Certa</string>
+    <string name="nomeInicio">Dose Certa</string>
+    <string name="btEntrar">Entrar</string>
+    <string name="btSair">Sair</string>
+    <string name="titulo1">Meus Remédios</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+</resources>
