@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:src="@drawable/dose_certa"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome completo:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Nome Completo"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite seu CPF:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="CPF"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite seu e-mail:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="E-mail"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite sua senha:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Senha"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg">
+    </EditText>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/blue"
+        >
+    </Button>
+
+</LinearLayout>

@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="50sp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/img_dose_certa"
+        android:src="@drawable/dose_certa"
         />
 
     <EditText
@@ -26,6 +26,7 @@
         android:hint="@string/usuario"
         android:autofillHints="username"
         android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg"
         />
 
     <EditText
@@ -37,6 +38,7 @@
         android:hint="@string/senha"
         android:autofillHints="password"
         android:inputType="textPassword"
+        android:background="@drawable/edittext_bg"
         />
 
 
@@ -49,6 +51,7 @@
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
         android:id="@+id/btEntrar"
+        android:backgroundTint="@color/blue"
         />
 
     <Button
@@ -60,6 +63,7 @@
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
         android:id="@+id/btSair"
+        android:backgroundTint="@color/blue"
         />
 
     <TextView

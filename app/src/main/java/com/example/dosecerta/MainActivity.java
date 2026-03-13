@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity implements
         } else if (id == R.id.btSair) {
             finish();
         }else if (id == R.id.linkEsqueciSenha) {
-            // Futuro: Intent para TelaRecuperarSenha.class
-            // Toast.makeText(this, "Ir para Recuperar Senha", Toast.LENGTH_SHORT).show();
+            Intent activity_recuperar = new Intent(this, Recuperar.class);
+            startActivity(activity_recuperar);
 
         } else if (id == R.id.linkCadastrar) {
-            // Futuro: Intent para TelaCadastro.class
-            // Toast.makeText(this, "Ir para Cadastro", Toast.LENGTH_SHORT).show();
+            Intent activity_cadastro = new Intent(this, Cadastro.class);
+            startActivity(activity_cadastro);
         }
     }
 

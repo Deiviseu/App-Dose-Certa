@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoseCerta">
         <activity
+            android:name=".Recuperar"
+            android:exported="false" />
+        <activity
+            android:name=".Cadastro"
+            android:exported="false" />
+        <activity
+            android:name=".cadastro"
+            android:exported="false" />
+        <activity
             android:name=".TelaHomeActivity"
             android:exported="false" />
         <activity
