@@ -16,9 +16,7 @@
             android:exported="false" />
         <activity
             android:name=".Cadastro"
-            android:exported="false" />
-        <activity
-            android:name=".cadastro"
+            android:windowSoftInputMode="adjustResize"
             android:exported="false" />
         <activity
             android:name=".TelaHomeActivity"

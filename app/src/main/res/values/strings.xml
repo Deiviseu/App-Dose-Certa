@@ -4,7 +4,6 @@
     <string name="nomeInicio">Dose Certa</string>
     <string name="btEntrar">Entrar</string>
     <string name="btSair">Sair</string>
-    <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="esqueciSenha">Recuperar Senha</string>
     <string name="cadastrar">Cadastre-se</string>
@@ -18,4 +17,22 @@
     <string name="Antibióticos">Antibióticos</string>
 
     <!-- Cadastro -->
+    <string name="cadastro">CADASTRO</string>
+    <string name="dgtNome">Digite seu nome completo:</string>
+    <string name="nome">Nome completo</string>
+    <string name="cpf">Digite seu CPF:</string>
+    <string name="dicaCpf">CPF</string>
+    <string name="email">Digite seu e-mail:</string>
+    <string name="dicaEmail">E-mail</string>
+    <string name="dgtSenha">Digite sua senha:</string>
+    <string name="dgtConfirmSenha">Confirme sua senha:</string>
+    <string name="dicaSenha">Senha</string>
+    <string name="salvar">Salvar</string>
+
+    <!-- Recuperar Senha -->
+    <string name="recSenha">Recuperar Senha</string>
+    <string name="novaSenha">Digite sua nova senha:</string>
+    <string name="dicaNovaSenha">Nova senha</string>
+    <string name="confirmeNovaSenha">Confirme sua nova senha:</string>
+    <string name="dicaConfirmeNovaSenha">Nova senha</string>
 </resources>
