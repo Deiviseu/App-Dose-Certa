@@ -35,4 +35,5 @@
     <string name="dicaNovaSenha">Nova senha</string>
     <string name="confirmeNovaSenha">Confirme sua nova senha:</string>
     <string name="dicaConfirmeNovaSenha">Nova senha</string>
+    <string name="bula">Bula</string>
 </resources>
